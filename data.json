@@ -1,0 +1,57 @@
+{
+    "file_name": [
+        "input_data/csv/customers.csv",
+        "input_data/csv/vehicles.csv"
+    ],
+    "transaction": {
+        "customers": [
+            {
+                "id": "ID5410",
+                "name": "Melissa T Miller",
+                "address": "2837  Fidler Drive",
+                "phone": "210-624-7306",
+                "date": "31/01/2020"
+            },
+            {
+                "id": "ID9857",
+                "name": "Daniel I Walker",
+                "address": "3853  Hilltop Street",
+                "phone": "413-655-7397",
+                "date": "25/04/2020"
+            },
+            {
+                "id": "ID6651",
+                "name": "Pauline J Buxton",
+                "address": "1927  Pinnickinick Street",
+                "phone": "360-727-9275",
+                "date": "16/03/2020"
+            }
+        ],
+        "vehicles": [
+            {
+                "id": "V3015",
+                "make": "Chevrolet",
+                "vin_number": "1HGFA16548L016469",
+                "owner_id": "ID9857"
+            },
+            {
+                "id": "V2014",
+                "make": "Honda",
+                "vin_number": "1G6KD57Y46U180996",
+                "owner_id": "ID9857"
+            },
+            {
+                "id": "V1475",
+                "make": "Ford",
+                "vin_number": "2HKYF18575H574967",
+                "owner_id": "ID5410"
+            },
+            {
+                "id": "V786",
+                "make": "Nissan",
+                "vin_number": "2GTEK13M481177784",
+                "owner_id": "ID6651"
+            }
+        ]
+    }
+}
